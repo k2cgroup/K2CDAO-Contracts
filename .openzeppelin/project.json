@@ -1,0 +1,29 @@
+{
+  "manifestVersion": "2.2",
+  "contracts": {
+    "BscdToken": "BscdToken",
+    "BscdTeamLock": "BscdTeamLock",
+    "BscdStakingFund": "BscdStakingFund",
+    "BscdStaking": "BscdStaking",
+    "BscdPromoFund": "BscdPromoFund",
+    "BscdDaoLock": "BscdDaoLock",
+    "BscdCertifiedPresaleTimer": "BscdCertifiedPresaleTimer",
+    "BscdCertifiedPresale": "BscdCertifiedPresale",
+    "BscdVotingRights": "BscdVotingRights"
+  },
+  "dependencies": {},
+  "name": "bscd-contracts",
+  "version": "1.0.0",
+  "compiler": {
+    "manager": "truffle",
+    "compilerSettings": {
+      "optimizer": {
+        "enabled": false,
+        "runs": "200"
+      }
+    },
+    "artifactsDir": "build\\contracts",
+    "contractsDir": "contracts"
+  },
+  "telemetryOptIn": false
+}
